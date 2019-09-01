@@ -1,0 +1,19 @@
+body{
+    color: var(--color);
+    background-color: var(--background-color);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    font-family: 'Nunito'; 
+}
+.container{
+    width: 80%;
+    background-color: var(--panel-bg);
+    border-radius: 10 px;
+    padding: 4em;
+
+    h1{
+        margin: 0;
+    }
+}
